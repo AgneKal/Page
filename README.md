@@ -8,7 +8,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://agnekal.github.io/priceCalculator
+Site published at: https://agnekal.github.io/page
 
 ## 🎯 Project features/goals
 
@@ -40,7 +40,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://agnekal.github.io/priceCalculator.git
+    git clone https://agnekal.github.io/page.git
     ```
 2. Install NPM packages
     ```sh
