@@ -1,0 +1,162 @@
+body,
+body * {
+    margin:0;
+    padding:0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header {
+    box-shadow: -1px 1px 3px -1px rgba(8, 8, 8, 0.29);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(8, 8, 8, 0.29);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(8, 8, 8, 0.29);
+}
+
+.purple {
+    background-color: #60267f;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.learnMore {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.mainHeaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.mainHeaderContainer>img {
+    width: 150px;
+}
+
+.mainHeaderList *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #2B0236;
+}
+
+.mainHeaderContainer button {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #9A54BC;
+    border-radius: 5px;
+    color: #2B0236
+}
+
+.mainHeaderContainer button:hover {
+    background-color: #9A54BC;
+    color: white;
+    cursor: pointer;
+}
+
+.topHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.topHeaderContainer h1 {
+    font-size: 40px;
+    color: #2B0236;
+}
+
+.topHeaderContainer button {
+    padding: 15px 30px;
+    background-color: #9A54BC;
+    border: none;
+    border: 1px solid #9A54BC;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+}
+
+.topHeaderContainer button:hover {
+    background-color: white;
+    color: #9A54BC;
+    cursor: pointer;
+}
+
+.elipseContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 100px;
+}
+
+.smallElipse {
+    top: 120px;
+}
+
+.topPhone {
+    top: 130px;
+}
+
+.logoInElipses {
+    top: 230px;
+}
+
+.btnInElipses {
+    top: 420px;
+    padding: 10px 15px;
+    background-color: white;
+    border: none;
+    border: 1.5px solid #9A54BC;
+    border-radius: 5px;
+    color: #9A54BC;
+    font-weight: 700;
+}
+
+.btnInElipses:hover {
+    background-color: #9A54BC;
+    color: white;
+    cursor: pointer;
+}
