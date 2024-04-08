@@ -10,6 +10,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.h2 {
+    font-size: 36px;
+}
+
 .roboto-light {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -125,6 +129,7 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
+    min-height: 500px;
 }
 
 .absolute {
@@ -159,4 +164,38 @@ header {
     background-color: #9A54BC;
     color: white;
     cursor: pointer;
+}
+
+.topBrandsIconsCountainer {
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.iconsContainer {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.iconsContainer img{
+    width: 100px;
+}
+
+.howCollabHelpMainContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.howHelpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
