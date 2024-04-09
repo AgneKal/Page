@@ -189,13 +189,67 @@ header {
 .howCollabHelpMainContainer {
     margin-top: 100px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 .howHelpContainer {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 6rem;
+}
+
+.paraContainer {
+    width: 30rem;
+}
+
+.howHelpBtnContainer {
+    width: 100%;
+    background-color: white;
+    padding: 0.5rem;
+    box-shadow: -1px 1px 3px -1px rgba(8, 8, 8, 0.29);
+        -webkit-box-shadow: -1px 1px 3px -1px rgba(8, 8, 8, 0.29);
+        -moz-box-shadow: -1px 1px 3px -1px rgba(8, 8, 8, 0.29);
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5px;
+}
+
+.howHelpBtnContainer button {
+    width: 50%;
+    padding: 0.6rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border: 2px solid white;
+    font-weight: 500;
+    padding: 2px;
+}
+
+.howHelpBtnContainer button:hover{
+    background-color: #60267f;
+    border: 2px solid #9A54BC;
+    border-radius: 5px;
+    color: white;
+}
+
+.howHelpAllTextContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1.5rem auto;
+}
+
+.howHelpAllTextContainer p {
+    padding: 1.1rem;
+    background-color: #f2f2f2;
+    font-size: 14px;
+}
+
+.imgContainer img {
+    width: 15rem;
 }
