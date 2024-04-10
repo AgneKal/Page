@@ -253,3 +253,60 @@ header {
 .imgContainer img {
     width: 15rem;
 }
+
+.videoMainContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.videoMainContainer p {
+    width: 50%;
+    text-align: center;
+}
+
+.videoMainContainer iframe {
+    width: 1260px;
+    height: 630px;
+    text-align: center;
+}
+
+.projectsDoneContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.projectDoneCardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+
+}
+
+.card img{
+    width: 400px;
+}
+
+.card p, span {
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.card p {
+    color:#60267f;
+}
