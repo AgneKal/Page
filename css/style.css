@@ -269,8 +269,7 @@ header {
 }
 
 .videoMainContainer iframe {
-    width: 1260px;
-    height: 630px;
+    width: 80%;
     text-align: center;
 }
 
@@ -281,10 +280,10 @@ header {
     align-items: center;
     flex-direction: column;
     gap: 50px;
-
 }
 
 .projectDoneCardsContainer {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,14 +291,14 @@ header {
 }
 
 .card {
+    width: 30%;
     display: flex;
     flex-direction: column;
     gap:30px;
-
 }
 
 .card img{
-    width: 400px;
+    width: 100%;
 }
 
 .card p, span {
@@ -309,4 +308,45 @@ header {
 
 .card p {
     color:#60267f;
+}
+
+.bigCardsContainer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigCardsTopPara {
+    color: #A79D9D;
+    margin-top: 15px;
+}
+
+.monthYearCountainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    gap: 10px;
+}
+
+.fa-toggle-on {
+    color: #56E6A5;
+    font-size: 26px;
+}
+
+.monthly {
+    color: #A79D9D;
+}
+
+.yearly {
+    font-weight: 500;
+}
+
+.discount {
+    font-size: 12px;
+    background-color: #FFE87A;
+    padding: 3px 4px;
+    border-radius: 5px;
 }
