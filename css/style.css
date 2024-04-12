@@ -270,6 +270,7 @@ header {
 
 .videoMainContainer iframe {
     width: 80%;
+    height: 600px;
     text-align: center;
 }
 
