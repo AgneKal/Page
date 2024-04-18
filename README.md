@@ -8,6 +8,8 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
+Design: [Page](https://www.figma.com/community/file/1103216207045748302/collab-landing-page-design)
+
 Site published at: https://agnekal.github.io/page
 
 ## 🎯 Project features/goals

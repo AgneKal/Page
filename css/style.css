@@ -371,7 +371,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    transition: all 1s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .bigCard h4 {
@@ -458,43 +458,109 @@ header {
 .starsPara::before {
     font-family: "bootstrap-icons";
     content: '\F12F';
+    margin-right: 100px;
+    font-size: 40px;
+    cursor: pointer;
 }
 
 .starsPara::after {
     font-family: "bootstrap-icons";
     content: '\F138';
+    margin-left: 100px;
+    font-size: 40px;
+    cursor: pointer;
 }
 
-/* .reviewStar {
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-.reviewContainer {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.arrow {
-    padding: 0 80px;
-}
-
-.review {
-    line-height: 22px;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 80px;
-    font-weight: 700;
-}
-
-.reviewAuthorContainer {
+.snakeContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 80px;
-} */
+    gap: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.snakeContainer button {
+    padding: 15px 30px;
+    background-color: #9A54BC;
+    border: none;
+    border: 1px solid #9A54BC;
+    border-radius: 7px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.snakeContainer button:hover {
+    background-color: white;
+    color: #9A54BC
+}
+
+.snakeImgContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 900px;
+}
+
+.snakeImgContainer img {
+    position: absolute;
+}
+
+.line {
+    min-width: 900px;
+    margin-top: 200px;
+    z-index: -1;
+}
+
+.face1 {
+    top:-25px;
+    left:-25px;
+}
+
+.face2 {
+    top: 140px;
+    left: 110px;
+}
+
+.face3 {
+    top: 110px;
+    left: 250px;
+}
+
+.face4 {
+    top: 180px;
+    left: 360px;
+}
+
+.face5 {
+    top: 190px;
+    left: 490px;
+}
+
+.face6 {
+    top: 160px;
+    left: 630px;
+}
+
+.face7 {
+    top: 170px;
+    left: 810px;
+}
+
+.face8 {
+    top: 100px;
+    left: 860px;
+}
+
+.you {
+    top: 68px;
+    left: 750px;
+    min-height: 15px;
+}
+
 /*
 .joinUsMainContainer {
     padding: 100px 200px;
@@ -573,3 +639,5 @@ header {
     align-items: center;
     text-align: center;
 } */
+
+
