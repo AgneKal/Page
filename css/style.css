@@ -490,6 +490,7 @@ header {
     color: white;
     font-weight: 500;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .snakeContainer button:hover {
@@ -561,83 +562,171 @@ header {
     min-height: 15px;
 }
 
-/*
-.joinUsMainContainer {
-    padding: 100px 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.joinUsInfo {
-    padding: 40px 0;
-}
-
-.joinUsBtn {
-    padding: 15px 30px;
-    background-color: #9A54BC;
-    border: none;
-    border: 1px solid #9A54BC;
-    border-radius: 7px;
-    color: white;
-    font-weight: 700;
-}
-
-.downloadMainContainer {
-    background-color: #9A54BC;
-    padding: 120px 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.downloadMainContainer h1 {
-    color: #ffffff;
-    font-size: 40px;
-}
-
 .downloadContainer {
+    margin-top: 300px;
+    width: 100%;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-color: #9A54BC;
     gap: 30px;
-    margin-top: 40px;
+}
+
+.downloadContainer h2 {
+    font-size: 32px;
+    color: white;
+}
+
+.downloadBtnContainer {
+    display: flex;
+    gap: 50px;
 }
 
 .downloadBtn {
-    padding: 15px 30px;
-    border: none;
-    border-radius: 7px;
-    font-weight: 700;
-}
-
-.btnWhite {
-    border: 2px solid #9A54BC;
-    color: #9A54BC;
-    background-color: white;
-}
-
-.btnPurple {
-    border: 2px solid white;
-    color: white;
+    padding: 10px 20px;
     background-color: #9A54BC;
+    border: none;
+    border: 2px solid white;
+    border-radius: 7px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
 }
 
-.mapMainContainer {
+.downloadBtn:hover {
+    background-color: white;
+    color: #9A54BC
+}
+
+.mapContainer {
+    width: 100%;
     display: flex;
+    gap: 30px;
     justify-content: center;
-    align-items: center;
-    gap: 100px;
 }
 
 .contacts {
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     text-align: center;
-} */
+}
 
+.contacts h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
 
+.contacts>p {
+    width: 80%;
+}
+
+.contacts>h2 {
+    width: 80%;
+}
+
+.map{
+    width: 55%;
+}
+
+.footerContainer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: #E2BDF21C;
+    margin-top: 50px;
+}
+
+.socialMediaContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.socialMedia {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footerLogo {
+    width: 150px;
+}
+
+.footerText {
+    width: 50%;
+}
+
+.footerFollow {
+    font-weight: 600;
+}
+
+.socialMediaIcons {
+    display: flex;
+    gap: 20px;
+}
+
+.socialMediaIcons img {
+    width: 30px;
+}
+
+.footerTableContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerTableContainer table{
+    width: 90%;
+    height: 50%;
+}
+
+.footerTableContainer table thead th, tbody td {
+    width: 33%;
+    text-align: start;
+}
+
+.footerTableContainer tbody td {
+    width: 33%;
+    text-align: start;
+    color: #60267f;
+}
+
+.footerTableContainer thead th {
+    padding-bottom: 10px;
+}
+
+.footerTableContactUs {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.footerTableContactUs p {
+    font-weight: 500;
+}
+
+.footerTableContactUs a {
+    font-weight: 500;
+    color: #60267f;
+    text-decoration: none;
+}
+
+.lastLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #60267f;
+    color: white;
+    font-weight: 200;
+}
